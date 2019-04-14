@@ -1,0 +1,17 @@
+{
+  "name": "babel-config-cli",
+  "version": "1.0.0",
+  "description": "Command line interface for starting up node projects with Babel",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "./node_modules/.bin/babel-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.3"
+  }
+}
